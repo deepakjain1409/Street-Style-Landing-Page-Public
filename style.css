@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: Poppins, sans-serif;
+}
+
+/* Navbar section */
+nav.navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.navbar-container img {
+  height: 50px;
+  margin-left: 7pc;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  margin-left: 10pc;
+  font-size: 20px;
+}
+
+.list-item {
+  margin-left: 50px;
+  font-weight: 500;
+}
+
+.list-item:nth-child(1) {
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 179px 0 64px;
+}
+
+.search-icon {
+  margin: 1px 8px;
+  height: 0px;
+}
+
+.nav-button {
+  padding: 4px 40px;
+  border-radius: 8px;
+  background: transparent;
+  font-size: small;
+}
+
+/* Hero section */
+
+.hero-container {
+  display: flex;
+  position: relative;
+  margin-top: 60px;
+}
+
+[alt="person-hero-iamge"] {
+  height: 500px;
+  margin-left: 25px;
+  margin-top: 15px;
+}
+
+.square {
+  position: absolute;
+  z-index: -1;
+  top: 29%;
+  right: 64%;
+}
+
+.square img {
+  width: 350px;
+  position: relative;
+  top: 65px;
+}
+
+.square::after {
+  content: url(Assets/start.png);
+  position: absolute;
+  bottom: 0px;
+  left: 425px;
+  height: 20px;
+}
+
+.star {
+  top: 50px;
+  left: 88%;
+  position: relative;
+}
+
+.star img {
+  width: 60px;
+}
+
+.globe {
+  top: 2px;
+  left: 55%;
+  position: absolute;
+}
+
+.globe img {
+  width: 60px;
+}
+
+.hero-container-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-heading {
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 7rem 2rem 2rem 4rem;
+}
+
+.hero-description {
+  width: 64%;
+  text-align: center;
+  color: #454545;
+  padding-bottom: 70px;
+}
+
+.button-email {
+  color: #454545;
+  border-color: #454545;
+  padding: 0 24px;
+  border-radius: 8px;
+  font-weight: 800;
+  background: transparent;
+}
+
+.button-join {
+  background-color: #000;
+  color: #fff;
+  font-weight: 800;
+  padding: 0 24px;
+  border-radius: 8px;
+}
+
+.contact-heading {
+  font-weight: 400;
+  font-size: larger;
+  color: #454545;
+  margin-top: 60px;
+  margin-left: 30px;
+}
